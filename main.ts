@@ -13,7 +13,7 @@ basic.showIcon(IconNames.Happy)
 input.onButtonPressed(Button.A, function () {
     let findingTemperature = Math.round(input.temperature() + 273.15)
     basic.clearScreen()
-    basic.showString('The temperature is: ')
+    basic.showString('Temperature is: ')
     basic.showNumber(findingTemperature)
     basic.showString('K.')
     basic.showIcon(IconNames.Happy)
